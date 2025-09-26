@@ -1,14 +1,17 @@
 import React from "react";
 import { motion } from "framer-motion";
 import Button from "../components/Button";
-import heroImg from "../assets/hero.jpg"; 
+import heroImg from "../assets/hero.jpg";
+import { Link,useNavigate } from "react-router-dom";
 
 const Hero = () => {
   const scrollToFeatures = () => {
     document
-      .getElementById("services")
+      .getElementById("")
       ?.scrollIntoView({ behavior: "smooth" });
   };
+
+  const navigate = useNavigate()
 
   return (
     <section className="h-[calc(100vh-5rem)] flex flex-col md:flex-row relative">
@@ -38,7 +41,7 @@ const Hero = () => {
           transition={{ duration: 1, ease: "easeOut", delay: 0.2 }}
           className="mt-6"
         >
-          <Button onClick={scrollToFeatures}>Exlpore Services</Button>
+          <Button onClick={() => navigate('/about')}>Know about us</Button>
         </motion.div>
       </div>
     </section>
