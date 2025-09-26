@@ -1,0 +1,64 @@
+ #contact{
+    height: 80vh; 
+    /* margin: auto 0; */
+    /* position: relative; */
+    width: 100%;
+    /* margin: auto;    */
+ 
+}
+
+.contact-content{
+/* background-color: red; */
+/* padding-top: 13rem; */
+ display: flex;
+ flex-direction: column;
+ gap: 40px;
+
+ /* height: 100%;  */
+ /* position: absolute;  */
+ /* left: 0;  */
+ /* margin: auto; */
+
+}
+
+.contact-content p{
+    font-size: 1.5rem;
+
+}
+.socials{
+    display: flex;
+    margin: 0 auto;
+    padding: 30px;
+    gap: 50px;
+}
+
+#contact h1{
+    font-size: 3rem;
+}
+
+
+.copyright{
+    font-size: 1rem;
+    color: grey;
+}
+
+
+@media screen and (max-width : 1040px) {
+
+    .contact-content p{
+        font-size: 1.2rem;
+    
+    }
+
+    #contact h1{
+        font-size: 2rem;
+    }
+    
+    .social-links{
+        size: 20px;
+    }
+
+    .copyright{
+        font-size: 0.5rem;
+    }
+}
