@@ -41,7 +41,7 @@ const Hero = () => {
           transition={{ duration: 1, ease: "easeOut", delay: 0.2 }}
           className="mt-6"
         >
-          <Button onClick={() => navigate('/about')}>Know about us</Button>
+          <Button onClick={() => navigate('/about')}> About Us</Button>
         </motion.div>
       </div>
     </section>
