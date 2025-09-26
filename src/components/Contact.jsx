@@ -39,7 +39,14 @@ const Contact = () => {
                 href="mailto:info@ismaos.com  "
                 className="text-black hover:underline text-base md:text-lg break-words"
               >
-                info@ismaos.com
+                frankly@ismaos.com
+              </a>
+
+              <a
+                href="mailto:info@ismaos.com  "
+                className="text-black hover:underline text-base md:text-lg break-words"
+              >
+                taiwo@ismaos.com
               </a>
             </div>
           </div>
