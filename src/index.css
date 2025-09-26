@@ -22,7 +22,7 @@
 
 body {
   margin: 0;
-  color: #000;              /* Black text inside body */
+  /* color: #000;  */
   background-color: #fff;   /* White background */
 }
 
@@ -34,7 +34,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Optional: Ensure paragraphs and list items are black */
 p, li, span, a, div {
-  color: #000;
+  /* color: #000; */
 }
 
 /* Buttons (you can override in Tailwind classes if needed) */

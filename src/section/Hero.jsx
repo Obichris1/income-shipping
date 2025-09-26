@@ -6,7 +6,7 @@ import heroImg from "../assets/hero.jpg";
 const Hero = () => {
   const scrollToFeatures = () => {
     document
-      .getElementById("features")
+      .getElementById("services")
       ?.scrollIntoView({ behavior: "smooth" });
   };
 
@@ -38,7 +38,7 @@ const Hero = () => {
           transition={{ duration: 1, ease: "easeOut", delay: 0.2 }}
           className="mt-6"
         >
-          <Button onClick={scrollToFeatures}>Get Started</Button>
+          <Button onClick={scrollToFeatures}>Exlpore Services</Button>
         </motion.div>
       </div>
     </section>

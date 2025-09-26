@@ -6,12 +6,16 @@ import Header from "./components/Header";
 import About from "./section/About";
 import Services from "./section/Features";
 import Contact from "./components/Contact";
+import WhyUs from "./components/WhyUs";
+import Clients from "./components/OurClients";
 
 function Home() {
   return (
     <>
       <Hero />
       <Features />
+      <Clients />
+      <WhyUs />
       <Contact />
       <Footer />
     </>
