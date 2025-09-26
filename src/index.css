@@ -1,19 +1,18 @@
 @import "tailwindcss";
 
-/* @import "slick-carousel/slick/slick.css";
-@import "slick-carousel/slick/slick-theme.css"; */
-
-
-
+/* If you need slick carousel later
+@import "slick-carousel/slick/slick.css";
+@import "slick-carousel/slick/slick-theme.css";
+*/
 
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  /* Force light mode look */
+  color: #000;              /* Black text everywhere */
+  background-color: #fff;   /* White background */
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -21,20 +20,26 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-
-
 body {
   margin: 0;
+  color: #000;              /* Black text inside body */
+  background-color: #fff;   /* White background */
 }
 
+/* Optional: Style headings consistently */
+h1, h2, h3, h4, h5, h6 {
+  color: #000;
+  font-weight: 600;
+}
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
- 
-  button {
-    background-color: #f9f9f9;
-  }
+/* Optional: Ensure paragraphs and list items are black */
+p, li, span, a, div {
+  color: #000;
+}
+
+/* Buttons (you can override in Tailwind classes if needed) */
+button {
+  background-color: #f9f9f9;
+  color: #000;
+  border: 1px solid #ddd;
 }
