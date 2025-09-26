@@ -17,7 +17,7 @@ function Home() {
       <Clients />
       <WhyUs />
       <Contact />
-      <Footer />
+     
     </>
   );
 }
@@ -33,6 +33,7 @@ function App() {
           <Route path="/services" element={<Services />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
+        <Footer />
       </div>
     </Router>
   );
